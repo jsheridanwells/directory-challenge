@@ -8,9 +8,11 @@ var Families = function(obj) {
 			data.families.forEach(item => {
 				_families.push(item);
 			});
+			console.log("working");
 		});
 	};
 	obj.getData = () => {
+		console.log("_families", _families);
 		return _families;
 	};
 	obj.addFamily = (data) => {
@@ -18,5 +20,3 @@ var Families = function(obj) {
 	};
 	return obj;
 }(Families || {});
-
-Families.loadData();
