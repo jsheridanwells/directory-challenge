@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Church Directory</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container">
+			<section class="description">
+				<h1>Church Directory</h1>
+				<p>
+					The first step in an active church directory is to be able to enter the information for each family in the church. Store this information to a file for future retrieval.
+				</p>
+				<p>
+					The secretary needs to be able to input an address with city and state along with a home phone number (if one exists) for each family. The family may only be a single person or a mother and father with children and everything in between. Each person will have a name (first, middle, last), a date of birth, and some will have a cell phone number.
+				</p>
+			</section>
+			<section id="form-field">
+				<fieldset>
+					<label for="address">Address: <input type="text" id="address"></label>
+					<label for="city">City: <input type="text" id="city"></label>
+					<label for="State">State: <input type="text" id="state"></label>
+				</fieldset>
+				<fieldset>
+					<label for="name">Name: <input type="text" id="name"></label>
+					<label for="birthdate">Birthdate: <input type="text" id="birthdate"></label>
+					<label for="cell phone">Cell Phone: <input type="text" id="phone"></label>
+				</fieldset>
+				<div class="buttons-field">
+					<button id="add-person">Add Another Family Member</button>
+					<button id="add-person">Submit</button>
+				</div>
+			</section>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+		<script src="js/data-object.js"></script>
+		<script src="js/data-loader.js"></script>
+		<script src="js/DOM-listener.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

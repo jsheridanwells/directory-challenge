@@ -1,0 +1,62 @@
+{
+	"families": [
+		{
+			"address" : "123 State St",
+			"city" : "Nashville",
+			"state" : "TN",
+			"adults" : [
+				{
+					"name" : "James Eaton",
+					"birthdate" : "1980-12-1",
+					"cellPhone" : "6155551212"
+				},
+				{
+					"name" : "Jane Smith",
+					"birthdate" : "1983-12-5",
+					"cellPhone" : "6151215555"
+				}
+			],
+			"children" : [
+				{
+					"name" : "Brandon Eaton",
+					"birthdate" : "2007-12-3",
+					"cellPhone" : "6154443333"
+				},
+				{
+					"name" : "Jessie Eaton",
+					"birthdate" : "2009-12-6",
+					"cellPhone" : "6157773434"
+				}
+			]
+		},
+		{
+			"address" : "1100 Main St.",
+			"city" : "Nashville",
+			"state" : "TN",
+			"adults" : [
+				{
+					"name" : "John Walton",
+					"birthdate" : "1976-12-7",
+					"cellPhone" : "6159998787"
+				},
+				{
+					"name" : "Jessica Walton",
+					"birthdate" : "1980-12-2",
+					"cellPhone" : "6159992323"
+				}
+			],
+			"children" : [
+				{
+					"name" : "Alison Walton",
+					"birthdate" : "2008-12-5",
+					"cellPhone" : "6159996767"
+				},
+				{
+					"name" : "Jeffrey Walton",
+					"birthdate" : "2006-12-1",
+					"cellPhone" : "6154446868"
+				}
+			]
+		}
+	]
+}
